@@ -1,0 +1,85 @@
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1fr;
+    height: 80vh;
+    background-color: #f0f2f5;
+    margin: 2rem;
+  }
+  
+  .body .home {
+    margin: 5rem;
+    place-items: center left;
+    color: #408ef4;
+    font-size: larger;
+  }
+  
+  .body .connect {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .body .facebook {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .div .boby {
+    display: grid;
+    padding: 0.7fr;
+    border: 50px;
+    border-radius: 2px;
+    background-color: #fff;
+    place-items: center;
+  }
+  
+  .div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding-right: 0.7fr;
+    margin: 6rem;
+    height: 100rem;
+    border-radius: 3px;
+  }
+  
+  .div .login {
+    background-color: #450caf;
+    text-align: center;
+    border: 100px;
+    border-radius: 2px;
+    width: 20rem;
+    color: #f0f2f5;
+    text-transform: capitalize;
+    padding: 0.5rem;
+  }
+  
+  .div .new {
+    background-color: #44e420;
+    border: 60px;
+    border-radius: 2px;
+    width: 10rem;
+    color: #fff;
+    place-items: cernter normal;
+    padding: 0.5rem;
+  }
+  
+  .div .boby .email {
+    background-color: white;
+    border: 1px solid gray;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 2px;
+    width: 20rem;
+    color: #000;
+    height: 30px;
+    text-transform: capitalize;
+    object-fit: contain;
+  }
+  
+  .div .boby .password {
+    background-color: white;
+    padding: 0.2rem;
+    border: 1px solid gray;
+    width: 20rem;
+    height: 30px;
+    text-transform: capitalize;}
